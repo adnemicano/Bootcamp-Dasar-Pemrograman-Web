@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        a berfungsi untuk berpindah dari halaman 1  ke halaman lain,
+        href berfungsi untuk menentukan halaman yang akan dituju
+        target berfungsi untuk menentukan bagaimana halaman akan dibuka 
+    -->
+    <h1>halaman 1</h1>
+
+    <a href="halaman2.html">
+        pindah halaman 2
+    </a>
+
+    <br>
+
+    <a href="https://www.instagram.com/alilaadn/">
+        instagram org cakep
+    </a>
+
+    <br>
+
+    <a href="https://dilesin.com" target="_blank">
+        <img src="favicon-dilesin.png" width="30">
+    </a>
+
+    <br>
+
+    <a href="https://www.instagram.com/alilaadn/" target="_blank">
+        instagram org cakep
+    </a>
+
+    <center>
+        <img src="hulkthanos.png" alt="hulk n thanos" width="200">
+        <h1>orang lucu</h1>
+    </center>
+
+    <!-- 
+        table berfungsi untuk membuat tabel
+        tr berfungsi untuk membuat baris
+        th berfungsi untuk membuat header
+        td berfungsi untuk membuat kolom
+        border berfungsi untuk memberikan garis pada table
+        width berfungsi untuk memberikan leber pada tabele
+        colspan berfungsi untuk mnggabungkan kolom
+        align berfungsi unutk mengatur posisi teks
+     -->
+    <table border="1" width="50%">
+        <tr>
+            <th align="left">
+                No
+            </th>
+            <th align="center">
+                Nama
+            </th>
+            <th align="center">
+                Hal Spesial
+            </th>
+            <th colspan="3">
+                Level
+            </th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td align="center">
+                Cecep 
+            </td>
+            <td>
+                Duta nguahahahahah
+            </td>
+            <td align="center">
+                normal
+            </td>
+            <td align="center">
+                aneh
+            </td>
+            <td align="center">
+                odgj
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td align="center">
+                Biwa
+            </td>
+            <td>
+                Duta ngok ngok
+            </td>
+        </tr>
+    </table>
+
+    <h1>belajar form</h1>
+
+    <!-- 
+        form berfungsi untuk membuat form
+        label berfungsi untuk membuat label
+        input berungsi untuk membuat inputan
+        type berfungsi untuk menentukan tipe inputan
+        name berfungsi untuk memberikan nama pada inputan
+        placehorder berfungsi untuk memberikan placehorder pada inputan
+        id berfungsi untuk memberikan id pada inputan
+        onclick berfungsi untuk menjalankan fungsi ketika diklik
+     -->
+
+    <form method="get">
+        <label for="">Nama</label>
+        <br>
+        <input type="text" name="nama" placeholder="Masukkan nama kau woi">
+
+        <br>
+        <label for="">Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Email kau isi lah">
+
+        <br>
+        <label for="">Password</label>
+        <br>
+        <input type="password" name="password" placeholder="Gak ngisi password jadi apa" id="password">
+        <br>
+        <input type="checkbox" onclick="show()">
+        <label for="">Show password</label>
+
+        <br>
+        <label for="">Tanggal lahir</label>
+        <br>
+        <input type="date">
+
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <br>
+        <select name="" id="">
+            <option value="">Laki-laki</option>
+            <option value="">Perempuan</option>
+            <option value="">Kepo amat lu</option>
+        </select>
+
+        <br>
+        <label for="">Alamat</label>
+        <br>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+
+        <br>
+        <label for="">Foto meme</label>
+        <br>
+        <input type="file">
+
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <script>
+        function show() {
+            var input = document.getElementById("password");
+            if (input.type === "password") {
+                input.type = "text";
+            } else {
+                input.type = "password";
+            }
+        }
+    </script>
+    
+</body>
+</html>
