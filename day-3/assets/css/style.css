@@ -1,0 +1,102 @@
+body {
+    background-color: lightcoral;
+}
+
+/* contoh selector tag */
+h1 {
+    color: white;
+}
+
+/* contoh selector class */
+.alil-cakep {
+    color: red;
+}
+
+/* contoh selector class */
+.heading-text-1 {
+    color: brown;
+}
+
+/* penggabungan style */
+.heading-text-1,
+.heading-text-2 {
+    color: chartreuse;
+}
+
+/* 
+    contoh selector id,
+    id bersifat unik, tidak boleh ada yang sama
+*/
+#gambar-hulkthanos {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.container-artikel {
+    background-color: black;
+    color: white;
+    /* width: fit-content; */
+    /* padding memberi garis tepi */
+    padding: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+
+    /* border fradius berfungsi memberikan garis lengkung pada elemen */
+    border-radius: 12px;
+
+    /* text-align center berfungsi mencenterkan elemen */
+    text-align: center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    /* display: none; */
+}
+
+.text-caption  {
+    /* mengubah ukuran font */
+    font-size: 24px;
+
+    /* mengubah ketebalan font */
+    font-weight: 700;
+
+    /* mengubah jenis font */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* mengatur font menjadi besar atau kecil */
+    font-variant: small-caps;
+
+    /* mengubah warna font */
+    color: blueviolet;
+
+    /* khusus arab */
+    /* direction: rtl; */
+
+    text-decoration: underline;
+
+    /* word spacing mengatur jarak antar kata */
+    word-spacing: 20px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.container-flex {
+    margin-top: 1rem;
+
+    /* display flex berfungsoi membuat konten menjadi flexible */
+    display: flex;
+
+    /* justify-content berfungsi untuk mengatur posisi konten agar terdapat jarak antar elemen */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    justify-content: space-between;
+
+    /* gqp untuk memberikan jarak antar elemen */
+    grid-area: 20px;
+}
