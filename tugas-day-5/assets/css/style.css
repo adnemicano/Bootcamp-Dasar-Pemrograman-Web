@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+hr {
+    width: 600px;
+}
+
+.image-container {
+    margin-top: 2rem;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+}
+
+img {
+    width: 250px;
+    border-radius: 30px;
+}
+

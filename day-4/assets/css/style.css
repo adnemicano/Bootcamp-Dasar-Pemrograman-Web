@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Vina+Sans&display=swap');
+
+* {
+    font-family: 'Vina Sans', cursive;
+    color: chocolate;
+    margin: 0;
+}
+
+.background-container {
+    width: 100%;
+    height: 200px;
+
+    /* mengubah warna latar belakang */
+    background-color: cornflowerblue;
+}
+
+.background-image-container {
+    width: 100%;
+    height: 100vh;
+
+    /* buat ngatur gambarnya */
+    background-image: url(../image/jaeyong.jpeg);
+
+    /* buat ngatur ukuran gambarnya */
+    background-size: contain;
+    background-size: cover;
+
+    /* buat ngatur agar gambar tidak berulang */
+    background-repeat: no-repeat;
+}
+
+.border-kotak {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 2rem;
+
+    /* 
+        membuat garis, 3px lebarnya, solid tipenya, gray warnanya 
+        border, lebar garis, tipe, warnab
+    */
+    border: 3px solid gray;
+}
+
+.caption {
+
+    /* mengatur font */
+    font-family: 'Vina Sans', cursive;
+
+    /* mengatur ketebalan text */
+    font-weight: 800;
+
+    /* mengatur ukuran font */
+    font-size: 32px;
+
+    /* mengatur kecil/besar text */
+    font-variant: small-caps;
+}
+
+.kotak-margin-1,
+.kotak-margin-2 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.kotak-margin-1 {
+
+    /* memberikan margin di setiap sisi */
+    margin: 1rem;
+}
+
+.kotak-margin-2 {
+
+    /* mengatur jarak elemen atas */
+    margin-top: 1rem;
+
+    /* mengatur jarak elemen kiri */
+    margin-left: 1 rem;
+
+    /* mengatur jarak elemen bawah */
+    margin-bottom: 1rem;
+
+    /* mengatur jarak elemen kanan */
+    margin-right: 1rem;
+}
+
+.kotak-padding {
+    background-color: black;
+    color: white;
+    width: fit-content;
+
+    /* digunakan untuk mneghasilkan ruang kosong di sekitar konten elemen yang di dalam */
+    padding: 1rem;
+    /* mengatur jarak elemen atas */
+    padding-top: 1rem;
+    
+    /* mengatur jarak elemen kiri */
+    padding: 1 rem;
+    
+    /* mengatur jarak elemen bawah */
+    padding: 1rem;
+    
+    /* mengatur jarak elemen kanan */
+    padding: 1rem;
+
+    /* mengatur kemunculan dari elemen */
+    display: block;
+}
+
+.kotak-padding img {
+    width: 300px;
+}
+
+.text-property {
+    /* mengubah warna text */
+    color: darkblue;
+    /* mengatur posisi text */
+    text-align: center;
+    /* memberikan garis bawah pada text */
+    text-decoration: underline;
+}
+
+.kotak-absolute {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+
+    /* element bebas berada di mana saja */
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
+
+nav {
+    /* elemen tidak ikut terscroll */
+    position: fixed;
+    background-color: darkslategrey;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 1rem;
+    list-style-type: none;
+}
